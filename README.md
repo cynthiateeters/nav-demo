@@ -17,10 +17,11 @@ You are going to have to download and add the files from your Project 5 into thi
 4. Look carefully at index-demo.html and index-shell.html to figure out how you are going to merge the navigation code into your index.html.
 5. Once you have it planned out, cut-n-paste between files to make your About Me have navigation. 
 6. The CSS files for the navigation is contained in the file css/nav-style.css. Leave it there and link to it in the head tag. Below that link, have a link to your styles.css file.
-7. Make sure you have the master branch as the source to the public GH Pages (see above). Note that somethines it takes a few moments to get GH Pages synced to your repo.
-8. Test the public link from two different mobiles devices and do screen grabs.
-9. Add those screen grab pictures to the folder called readme-src in this repo.
-10. Edit this repo and add the images to the bottom of this page so that they display like the GH Pages image you see above.
+7. Validate and beautify. REPEATEDLY!
+8. Make sure you have the master branch as the source to the public GH Pages (see above). Note that somethines it takes a few moments to get GH Pages synced to your repo when you are making changes.
+9. Test the public link from two different mobile devices and do screen grabs.
+10. Add those screen grab pictures to the folder called readme-src in this repo.
+11. Edit this repo and add the images to the bottom of this page so that they display like the GH Pages image you see above.
 
 **You are expected to do the Week 9 reading as preparation for this assignment. Also you must use our CSS formatting rules from the CISY 225 Style Guide.**
 
