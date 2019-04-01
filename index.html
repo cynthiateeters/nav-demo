@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="css/nav-style.css">
 </head>
 
 <body>
@@ -19,9 +19,9 @@
     <header id="header" class="header">
         <nav class="navbar">
             <span class="navbar-toggle" id="js-navbar-toggle">
-                <i class="fas fa-bars"></i>
+                <i id="symbol-toggle" class="fas fa-bars"></i>
             </span>
-            <a href="#" class="logo">
+            <a href="#header" class="logo">
                 <div class="logo-container">
                     <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
                     <h1 class="page-title">Web Dev I</h1>
@@ -272,9 +272,18 @@
     <script>
         let mainNav = document.getElementById('js-menu');
         let navBarToggle = document.getElementById('js-navbar-toggle');
+        let symbolToggle = document.getElementById('symbol-toggle');
+
 
         navBarToggle.addEventListener('click', function () {
             mainNav.classList.toggle('active');
+            if (symbolToggle.classList.contains('fa-bars')) {
+                symbolToggle.classList.remove('fa-bars');
+                symbolToggle.classList.add('fa-times');
+            } else {
+                symbolToggle.classList.remove('fa-times');
+                symbolToggle.classList.add('fa-bars');
+            }
         });
     </script>
     <!-- end of javascript for nav toggle -->
