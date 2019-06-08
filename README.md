@@ -8,8 +8,8 @@ Once the merge is complete, you will be checking your About Me page with real mo
 ![GH Pages](https://github.com/cynthiateeters/nav-demo/blob/master/readme-src/GitHubPagesMasterSource.png)
 You are going to have to download and add the files from your Project 5 into this repo. Then you'll edit your index.html and styles.css to make the required changes.  
 
-1. Download and unzip this nav-demo repo.
-2. In this nav-demo repo, rename index.html to index-demo.html. Also I suggest you delete my photo image files as they are no good for your P6 and they take up a lot of room.
+1.  Download and unzip this nav-demo repo.
+2.  In this nav-demo repo, rename index.html to index-demo.html. Also I suggest you delete my photo image files as they are no good for your P6 and they take up a lot of room.
 2. Download and unzip your completed and _perfect_ Project 5 repo. Merge the two repos into one.
 3. Make sure that the old P5 README.md file does not overwrite the P6 README.md.
 4. Look carefully at index-demo.html and index-shell.html to figure out how you are going to merge the navigation code into your index.html.
