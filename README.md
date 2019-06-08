@@ -6,7 +6,6 @@ The goal of this assignment is to add page navigation to your About Me page. To 
 Once the merge is complete, you will be checking your About Me page with real mobile devices. To do this, make sure that the Settings page in your repo is set to use your Master as the GH Pages. See the below as an example.
 
 ![GH Pages](https://github.com/cynthiateeters/nav-demo/blob/master/readme-src/GitHubPagesMasterSource.png)
-
 You are going to have to download and add the files from your Project 5 into this repo. Then you'll edit your index.html and styles.css to make the required changes.  
 
 1. Download and unzip this nav-demo repo.
