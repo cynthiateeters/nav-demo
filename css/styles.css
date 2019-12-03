@@ -1,0 +1,237 @@
+/* skip link */
+.skip {
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+	height: 1px;
+	width: 1px;
+	text-align: left;
+	overflow: hidden;
+	background-color: #fff;
+	padding: .5rem;
+	color: black;
+	font-size: 1.5rem;
+}
+
+a.skip:active,
+a.skip:focus,
+a.skip:hover {
+	left: 0;
+	top: 0;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	z-index: 100;
+}
+
+.lk-logo {
+	max-width: 2em;
+}
+
+p {
+	font-size: 1.25rem;
+	line-height: 1.7;
+}
+
+
+
+.signature {
+	display: grid;
+	grid-template-columns: 1fr 13ch;
+}
+
+.signature p {
+	grid-column: 2/3;
+}
+
+
+.fa-feather-alt:before {
+	vertical-align: sub;
+}
+
+
+.story h2 {
+	font-size: 3rem;
+}
+
+.story-body {
+	max-width: 68ch;
+}
+
+
+
+/* form styling */
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+fieldset {
+	border: 1px solid #ddd !important;
+	margin: 0;
+	min-width: 0;
+	padding: 1rem;
+	position: relative;
+	border-radius: 4px;
+	background-color: #f5f5f5;
+	padding-left: 1rem !important;
+}
+
+legend {
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 0px;
+	width: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px 5px 5px 10px;
+	background-color: #ffffff;
+}
+
+legend {
+	color: #18BC9C;
+}
+
+input,
+textarea {
+	width: 90%;
+	outline: .1px gray solid;
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+	background-color: #128f76 !important;
+	border-color: #128f76 !important;
+}
+
+input:focus,
+textarea:focus {
+	border-color: #18BC9C;
+	border-width: 5px;
+	border-style: dotted;
+	outline: none;
+
+}
+
+input[type=checkbox],
+input[type=radio] {
+	width: 1rem;
+	outline: none;
+}
+
+input[type=checkbox]:focus,
+input[type=radio]:focus {
+	width: 1rem;
+	outline: none;
+}
+
+/* The container */
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input[type=radio] {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1.5rem;
+	width: 1.5rem;
+	background-color: #aaa;
+	border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+	background-color: #18BC9C;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.form-submit {
+	font-size: 1.75rem;
+}
+
+.btn-social {
+	display: flex;
+	align-items: center;
+	width: 4.5rem;
+	height: 4.5rem;
+	font-size: 3rem;
+	line-height: 2rem;
+	text-align: center;
+}
+
+header.masthead h1 {
+	letter-spacing: 1rem;
+}
+
+header.masthead h2 {
+	font-size: 2rem;
+}
+
+@media screen and (min-width: 48rem) {
+
+	.lk-bio p {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 992px) {
+	header.masthead h1 {
+		font-size: 4em;
+		line-height: 4rem;
+	}
+
+	header.masthead h2 {
+		font-size: 2.5em;
+	}
+
+	#mainNav .navbar-brand {
+		font-size: 1.75em;
+	}
+}

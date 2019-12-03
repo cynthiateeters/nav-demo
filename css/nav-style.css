@@ -63,6 +63,16 @@ a.skip:hover {
     overflow: visible;
 }
 
+/* fragment links */
+
+#main:focus,
+#about-me:focus,
+#pictures:focus,
+#story:focus,
+#contact:focus {
+  outline: none;
+}
+
 /*   mobile-first header with hamburger*/
 .logo-container {
     display: flex;
