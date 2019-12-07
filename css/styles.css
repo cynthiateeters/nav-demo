@@ -1,28 +1,4 @@
-/* skip link */
-.skip {
-	position: absolute;
-	top: -1000px;
-	left: -1000px;
-	height: 1px;
-	width: 1px;
-	text-align: left;
-	overflow: hidden;
-	background-color: #fff;
-	padding: .5rem;
-	color: black;
-	font-size: 1.5rem;
-}
 
-a.skip:active,
-a.skip:focus,
-a.skip:hover {
-	left: 0;
-	top: 0;
-	width: auto;
-	height: auto;
-	overflow: visible;
-	z-index: 100;
-}
 
 .lk-logo {
 	max-width: 2em;
@@ -33,7 +9,15 @@ p {
 	line-height: 1.7;
 }
 
+.profile {
+	border-radius: 50%;
+	border-collapse: #333;
+	max-width: 50%;
+}
 
+.hero .content {
+	text-align: center;
+}
 
 .signature {
 	display: grid;
@@ -49,13 +33,14 @@ p {
 	vertical-align: sub;
 }
 
-
-.story h2 {
-	font-size: 3rem;
+.story-body,
+.about-me .content {
+	margin: 0 auto;
+	max-width: 68ch;
 }
 
-.story-body {
-	max-width: 68ch;
+h2 {
+	padding-left: 1rem;
 }
 
 
@@ -64,7 +49,7 @@ p {
 
 button, input, select, textarea {
   font-family : inherit;
-  font-size   : 100%;
+  font-size   : 110%;
 }
 
 fieldset {
@@ -79,7 +64,7 @@ fieldset {
 }
 
 legend {
-	font-size: 1rem;
+	font-size: 1.125rem;
 	font-weight: bold;
 	margin-bottom: 0px;
 	width: auto;
@@ -93,10 +78,20 @@ legend {
 	color: #18BC9C;
 }
 
+label {
+	font-size: 1.125rem;
+}
+
 input,
 textarea {
 	width: 90%;
+	background-color: white;
 	outline: .1px gray solid;
+}
+
+.email,
+textarea {
+	max-width: 50ch;
 }
 
 a.bg-primary:focus,
